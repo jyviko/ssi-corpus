@@ -1,0 +1,1487 @@
+[
+ {
+  "id": "c1_plane_cyl_ellipse",
+  "class": "1 transversal",
+  "title": "tilted plane x full cylinder: one closed ellipse",
+  "surfaces": [
+   "plane",
+   "cylinder"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1_plane_halfcyl_arc",
+  "class": "1 transversal",
+  "title": "tilted plane x half cylinder: one open half-ellipse",
+  "surfaces": [
+   "plane",
+   "cylinder"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1_plane_sphere_circle",
+  "class": "1 transversal",
+  "title": "plane z=1 x sphere R=2: circle r=sqrt3",
+  "surfaces": [
+   "plane",
+   "sphere"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1_cyl_cyl_two_loops",
+  "class": "1 transversal",
+  "title": "perpendicular cylinders r=1, r=1.5: two separate closed loops",
+  "surfaces": [
+   "cylinder",
+   "cylinder"
+  ],
+  "branches": 2,
+  "closed": [
+   true,
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1_sphere_cyl_two_loops",
+  "class": "1 transversal",
+  "title": "sphere R=2 x off-axis cylinder r=0.8: two separate loops",
+  "surfaces": [
+   "sphere",
+   "cylinder"
+  ],
+  "branches": 2,
+  "closed": [
+   true,
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1_torus_plane_nested",
+  "class": "1 transversal",
+  "title": "torus R=3 r=1 x plane z=0.5: two nested circles",
+  "surfaces": [
+   "torus",
+   "plane"
+  ],
+  "branches": 2,
+  "closed": [
+   true,
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1_cone_plane_ellipse",
+  "class": "1 transversal",
+  "title": "cone 30deg x plane z=2+0.3x: closed ellipse",
+  "surfaces": [
+   "cone",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1_cone_plane_hyperbola",
+  "class": "1 transversal",
+  "title": "cone 30deg x plane x=1: one open hyperbola branch",
+  "surfaces": [
+   "cone",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1n_cylN_plane_ellipse",
+  "class": "1 transversal",
+  "title": "rational NURBS full cylinder x tilted plane: closed ellipse",
+  "surfaces": [
+   "NURBS cylinder deg(2,1) 9x2cp rational",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1n_parab_plane_circle",
+  "class": "1 transversal",
+  "title": "NURBS paraboloid x plane z=1: circle r=1",
+  "surfaces": [
+   "NURBS paraboloid z=x^2+y^2 deg(2,2) 3x3cp",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1n_saddle_plane_hyperbola",
+  "class": "1 transversal",
+  "title": "bilinear saddle z=xy x plane z=1: two open hyperbola branches",
+  "surfaces": [
+   "NURBS saddle z=xy deg(1,1) 2x2cp",
+   "plane"
+  ],
+  "branches": 2,
+  "closed": [
+   false,
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1n_parab_parab_circle",
+  "class": "1 transversal",
+  "title": "two NURBS paraboloids: circle r=1 at z=1",
+  "surfaces": [
+   "NURBS paraboloid z=x^2+y^2 deg(2,2) 3x3cp",
+   "NURBS z=2-x^2-y^2 deg(2,2) 3x3cp"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1n_sphereN_cylN_two_loops",
+  "class": "1 transversal",
+  "title": "rational NURBS sphere x NURBS cylinder: two separate loops",
+  "surfaces": [
+   "NURBS sphere deg(2,2) 9x5cp rational",
+   "NURBS cylinder deg(2,1) 9x2cp rational"
+  ],
+  "branches": 2,
+  "closed": [
+   true,
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c1n_torusN_planeN_nested",
+  "class": "1 transversal",
+  "title": "rational NURBS torus x NURBS plane z=0.5: nested circles",
+  "surfaces": [
+   "NURBS torus deg(2,2) 9x9cp rational",
+   "NURBS plane deg(1,1) 2x2cp"
+  ],
+  "branches": 2,
+  "closed": [
+   true,
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c2_cyl_on_plane",
+  "class": "2 tangent curve",
+  "title": "cylinder r=1 resting on plane: tangent line",
+  "surfaces": [
+   "plane",
+   "cylinder"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c2_sphere_in_cyl",
+  "class": "2 tangent curve",
+  "title": "sphere R=1 inside cylinder r=1: tangent circle",
+  "surfaces": [
+   "sphere",
+   "cylinder"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c2_sphere_in_torus",
+  "class": "2 tangent curve",
+  "title": "sphere R=2 in torus hole (R=3,r=1): tangent circle on inner equator",
+  "surfaces": [
+   "sphere",
+   "torus"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c2_cones_tangent_ruling",
+  "class": "2 tangent curve",
+  "title": "two cones, common apex, touching along a ruling: tangent line",
+  "surfaces": [
+   "cone",
+   "cone"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c2_cyl_cyl_external",
+  "class": "2 tangent curve",
+  "title": "parallel cylinders r=1, axes 2 apart: tangent line",
+  "surfaces": [
+   "cylinder",
+   "cylinder"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c2n_parabcyl_plane",
+  "class": "2 tangent curve",
+  "title": "NURBS parabolic cylinder z=x^2 on plane z=0: tangent line",
+  "surfaces": [
+   "NURBS parabolic cylinder z=x^2 deg(2,1) 3x2cp",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c2n_quartic_circle",
+  "class": "2 tangent curve",
+  "title": "NURBS quartic z=(x^2+y^2-1)^2 on plane z=0: tangent circle",
+  "surfaces": [
+   "NURBS z=(x^2+y^2-1)^2 deg(4,4) 5x5cp",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c2n_cylN_on_planeN",
+  "class": "2 tangent curve",
+  "title": "NURBS cylinder on NURBS plane: tangent line",
+  "surfaces": [
+   "NURBS plane deg(1,1) 2x2cp",
+   "NURBS cylinder deg(2,1) 9x2cp rational"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c2n_quartic_contact_parabola",
+  "class": "2 tangent curve",
+  "title": "NURBS sheets in 4th-order contact (D = w^4) along a parabola",
+  "surfaces": [
+   "NURBS z = 0.5w^3 - 0.5w + 0.2u^2 + w^4 deg(2,4) 3x5cp",
+   "NURBS z = 0.5w^3 - 0.5w + 0.2u^2 deg(2,4) 3x5cp"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c2n_sphereN_in_cyl",
+  "class": "2 tangent curve",
+  "title": "NURBS sphere inside analytic cylinder: tangent circle",
+  "surfaces": [
+   "NURBS sphere deg(2,2) 9x5cp rational",
+   "cylinder"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c3_sphere_on_plane",
+  "class": "3 isolated point",
+  "title": "sphere touching plane: one point",
+  "surfaces": [
+   "sphere",
+   "plane"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 1,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c3_spheres_external",
+  "class": "3 isolated point",
+  "title": "two spheres touching externally: one point",
+  "surfaces": [
+   "sphere",
+   "sphere"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 1,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c3_spheres_internal",
+  "class": "3 isolated point",
+  "title": "sphere touching inside a sphere: one point",
+  "surfaces": [
+   "sphere",
+   "sphere"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 1,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c3_sphere_torus_outer",
+  "class": "3 isolated point",
+  "title": "sphere touching torus outer equator: one point",
+  "surfaces": [
+   "torus",
+   "sphere"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 1,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c3n_parab_apex",
+  "class": "3 isolated point",
+  "title": "NURBS paraboloid apex on plane z=0: one point",
+  "surfaces": [
+   "NURBS paraboloid z=x^2+y^2 deg(2,2) 3x3cp",
+   "plane"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 1,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c3n_parab_parab_apex",
+  "class": "3 isolated point",
+  "title": "two opposed NURBS paraboloids: one point",
+  "surfaces": [
+   "NURBS paraboloid z=x^2+y^2 deg(2,2) 3x3cp",
+   "NURBS z=-(x^2+y^2) deg(2,2) 3x3cp"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 1,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c3n_four_points",
+  "class": "3 isolated point",
+  "title": "NURBS quartic z=(x^2-1)^2+(y^2-1)^2 on z=0: four points",
+  "surfaces": [
+   "NURBS z=(x^2-1)^2+(y^2-1)^2 deg(4,4) 5x5cp",
+   "plane"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 4,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c4n_saddle_tangent_plane",
+  "class": "4 singular",
+  "title": "saddle z=xy x its tangent plane z=0: two lines crossing at origin",
+  "surfaces": [
+   "NURBS saddle z=xy deg(1,1) 2x2cp",
+   "plane"
+  ],
+  "branches": 2,
+  "closed": [
+   false,
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 1,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c4_viviani_figure8",
+  "class": "4 singular",
+  "title": "Viviani: sphere R=2 x cylinder r=1 through centre: figure-eight",
+  "surfaces": [
+   "sphere",
+   "cylinder"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 1,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c4_steinmetz",
+  "class": "4 singular",
+  "title": "equal perpendicular cylinders: two ellipses crossing at two points",
+  "surfaces": [
+   "cylinder",
+   "cylinder"
+  ],
+  "branches": 2,
+  "closed": [
+   true,
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 2,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c4_cone_apex_plane",
+  "class": "4 singular",
+  "title": "plane through cone axis: two lines meeting at the apex",
+  "surfaces": [
+   "cone",
+   "plane"
+  ],
+  "branches": 2,
+  "closed": [
+   false,
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 1,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c4n_cusp",
+  "class": "4 singular",
+  "title": "NURBS z=y^2-x^3 x plane z=0: cuspidal curve y^2=x^3",
+  "surfaces": [
+   "NURBS z=y^2-x^3 deg(3,2) 4x3cp",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 1,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c4n_viviani_nurbs",
+  "class": "4 singular",
+  "title": "Viviani figure-eight with rational NURBS sphere and cylinder",
+  "surfaces": [
+   "NURBS sphere deg(2,2) 9x5cp rational",
+   "NURBS cylinder deg(2,1) 9x2cp rational"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 1,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c5_curve_on_edge",
+  "class": "5 boundary",
+  "title": "plane cuts exactly along the edge u=0 of the other patch",
+  "surfaces": [
+   "plane",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c5_corner_to_corner",
+  "class": "5 boundary",
+  "title": "intersection is the diagonal: both endpoints on patch corners",
+  "surfaces": [
+   "plane",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c5_shared_border_L",
+  "class": "5 boundary",
+  "title": "two patches meeting at 90 deg along a shared border edge",
+  "surfaces": [
+   "plane",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c5_hemisphere_equator",
+  "class": "5 boundary",
+  "title": "hemisphere x plane of its boundary circle",
+  "surfaces": [
+   "sphere",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c5_cyl_end_circle",
+  "class": "5 boundary",
+  "title": "cylinder x plane of its bottom boundary circle",
+  "surfaces": [
+   "cylinder",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c5_cyl_quilt_seam",
+  "class": "5 boundary",
+  "title": "two G1 patches of one cylinder sharing a border line",
+  "surfaces": [
+   "cylinder",
+   "cylinder"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c5n_cylN_quilt_seam",
+  "class": "5 boundary",
+  "title": "two G1 NURBS cylinder patches sharing a border line",
+  "surfaces": [
+   "NURBS cylinder 0-90 deg(2,1) 3x2cp rational",
+   "NURBS cylinder 90-180 deg(2,1) 3x2cp rational"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c5n_curve_on_edge",
+  "class": "5 boundary",
+  "title": "NURBS patch: plane cuts exactly along its edge u=0",
+  "surfaces": [
+   "NURBS plane deg(3,3) 6x6cp",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c6_planes_overlap",
+  "class": "6 coincident",
+  "title": "same plane, patches overlapping in [1,2]^2",
+  "surfaces": [
+   "plane",
+   "plane"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 1
+ },
+ {
+  "id": "c6_planes_identical",
+  "class": "6 coincident",
+  "title": "identical plane patches",
+  "surfaces": [
+   "plane",
+   "plane"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 1
+ },
+ {
+  "id": "c6_spheres_overlap",
+  "class": "6 coincident",
+  "title": "same sphere, patches overlapping in lon[90,180] lat[-30,60]",
+  "surfaces": [
+   "sphere",
+   "sphere"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 1
+ },
+ {
+  "id": "c6_cyl_overlap",
+  "class": "6 coincident",
+  "title": "same cylinder, patches overlapping in angle[90,180] h[1,2]",
+  "surfaces": [
+   "cylinder",
+   "cylinder"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 1
+ },
+ {
+  "id": "c6n_plane_vs_nurbsplane",
+  "class": "6 coincident",
+  "title": "analytic plane vs NURBS plane (non-uniform param), partial overlap",
+  "surfaces": [
+   "plane",
+   "NURBS plane (warped parameterisation) deg(3,3) 4x4cp"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 1
+ },
+ {
+  "id": "c6n_cyl_vs_nurbscyl",
+  "class": "6 coincident",
+  "title": "analytic cylinder vs rational NURBS cylinder, partial overlap",
+  "surfaces": [
+   "cylinder",
+   "NURBS cylinder deg(2,1) 5x2cp rational"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 1
+ },
+ {
+  "id": "c6n_sphere_vs_nurbssphere",
+  "class": "6 coincident",
+  "title": "analytic sphere patch vs identical rational NURBS patch",
+  "surfaces": [
+   "sphere",
+   "NURBS sphere patch deg(2,2) 3x3cp rational"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 1
+ },
+ {
+  "id": "c7_angle_planes_1e-3",
+  "class": "7 near-degenerate",
+  "title": "planes crossing at angle 1e-3 rad: one line",
+  "surfaces": [
+   "plane",
+   "NURBS plane tilted 1e-3 deg(1,1) 2x2cp"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_angle_planes_1e-4",
+  "class": "7 near-degenerate",
+  "title": "planes crossing at angle 1e-4 rad: one line",
+  "surfaces": [
+   "plane",
+   "NURBS plane tilted 1e-4 deg(1,1) 2x2cp"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_angle_planes_1e-5",
+  "class": "7 near-degenerate",
+  "title": "planes crossing at angle 1e-5 rad: one line",
+  "surfaces": [
+   "plane",
+   "NURBS plane tilted 1e-5 deg(1,1) 2x2cp"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_angle_planes_1e-6",
+  "class": "7 near-degenerate",
+  "title": "planes crossing at angle 1e-6 rad: one line",
+  "surfaces": [
+   "plane",
+   "NURBS plane tilted 1e-6 deg(1,1) 2x2cp"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_angle_planes_1e-7",
+  "class": "7 near-degenerate",
+  "title": "planes crossing at angle 1e-7 rad: one line",
+  "surfaces": [
+   "plane",
+   "NURBS plane tilted 1e-7 deg(1,1) 2x2cp"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_angle_planes_1e-8",
+  "class": "7 near-degenerate",
+  "title": "planes crossing at angle 1e-8 rad: one line",
+  "surfaces": [
+   "plane",
+   "NURBS plane tilted 1e-8 deg(1,1) 2x2cp"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_sunk_cyl_1e-3",
+  "class": "7 near-degenerate",
+  "title": "cylinder sunk into plane, crossing angle 1e-3: two lines 2.0e-03 apart",
+  "surfaces": [
+   "plane",
+   "cylinder"
+  ],
+  "branches": 2,
+  "closed": [
+   false,
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_sunk_cyl_1e-4",
+  "class": "7 near-degenerate",
+  "title": "cylinder sunk into plane, crossing angle 1e-4: two lines 2.0e-04 apart",
+  "surfaces": [
+   "plane",
+   "cylinder"
+  ],
+  "branches": 2,
+  "closed": [
+   false,
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_sunk_cyl_1e-5",
+  "class": "7 near-degenerate",
+  "title": "cylinder sunk into plane, crossing angle 1e-5: two lines 2.0e-05 apart",
+  "surfaces": [
+   "plane",
+   "cylinder"
+  ],
+  "branches": 2,
+  "closed": [
+   false,
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_sunk_cyl_1e-6",
+  "class": "7 near-degenerate",
+  "title": "cylinder sunk into plane, crossing angle 1e-6: two lines 2.0e-06 apart",
+  "surfaces": [
+   "plane",
+   "cylinder"
+  ],
+  "branches": 2,
+  "closed": [
+   false,
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_tiny_loop_sphere_1e-4",
+  "class": "7 near-degenerate",
+  "title": "sphere dipping into plane: loop of diameter 0.0002 (1e-4 x model)",
+  "surfaces": [
+   "plane",
+   "sphere"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_tiny_loop_sphere_1e-5",
+  "class": "7 near-degenerate",
+  "title": "sphere dipping into plane: loop of diameter 2e-05 (1e-5 x model)",
+  "surfaces": [
+   "plane",
+   "sphere"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_tiny_loop_sphere_1e-6",
+  "class": "7 near-degenerate",
+  "title": "sphere dipping into plane: loop of diameter 2e-06 (1e-6 x model)",
+  "surfaces": [
+   "plane",
+   "sphere"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_tiny_loop_sphere_1e-7",
+  "class": "7 near-degenerate",
+  "title": "sphere dipping into plane: loop of diameter 2e-07 (1e-7 x model)",
+  "surfaces": [
+   "plane",
+   "sphere"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_tiny_loop_parab_1e-4",
+  "class": "7 near-degenerate",
+  "title": "NURBS paraboloid x plane z=1e-08: loop of diameter 0.0002",
+  "surfaces": [
+   "NURBS paraboloid z=x^2+y^2 deg(2,2) 3x3cp",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_tiny_loop_parab_1e-5",
+  "class": "7 near-degenerate",
+  "title": "NURBS paraboloid x plane z=1e-10: loop of diameter 2e-05",
+  "surfaces": [
+   "NURBS paraboloid z=x^2+y^2 deg(2,2) 3x3cp",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_tiny_loop_parab_1e-6",
+  "class": "7 near-degenerate",
+  "title": "NURBS paraboloid x plane z=1e-12: loop of diameter 2e-06",
+  "surfaces": [
+   "NURBS paraboloid z=x^2+y^2 deg(2,2) 3x3cp",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_tiny_loop_parab_1e-7",
+  "class": "7 near-degenerate",
+  "title": "NURBS paraboloid x plane z=1e-14: loop of diameter 2e-07",
+  "surfaces": [
+   "NURBS paraboloid z=x^2+y^2 deg(2,2) 3x3cp",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_offset_planes_1e-3",
+  "class": "7 near-degenerate",
+  "title": "parallel planes 1e-03 apart: no intersection",
+  "surfaces": [
+   "plane",
+   "NURBS plane z=1e-3 deg(3,3) 6x6cp"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_offset_spheres_1e-3",
+  "class": "7 near-degenerate",
+  "title": "concentric sphere patches, radii differ by 1e-03: no intersection",
+  "surfaces": [
+   "sphere",
+   "sphere"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_offset_planes_1e-5",
+  "class": "7 near-degenerate",
+  "title": "parallel planes 1e-05 apart: no intersection",
+  "surfaces": [
+   "plane",
+   "NURBS plane z=1e-5 deg(3,3) 6x6cp"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_offset_spheres_1e-5",
+  "class": "7 near-degenerate",
+  "title": "concentric sphere patches, radii differ by 1e-05: no intersection",
+  "surfaces": [
+   "sphere",
+   "sphere"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_offset_planes_1e-7",
+  "class": "7 near-degenerate",
+  "title": "parallel planes 1e-07 apart: no intersection",
+  "surfaces": [
+   "plane",
+   "NURBS plane z=1e-7 deg(3,3) 6x6cp"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c7_offset_spheres_1e-7",
+  "class": "7 near-degenerate",
+  "title": "concentric sphere patches, radii differ by 1e-07: no intersection",
+  "surfaces": [
+   "sphere",
+   "sphere"
+  ],
+  "branches": 0,
+  "closed": [],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c8_sphere_plane_poles",
+  "class": "8 periodic/seam/pole",
+  "title": "great circle through both poles (plane x=0)",
+  "surfaces": [
+   "sphere",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c8_sphere_plane_poles_seam",
+  "class": "8 periodic/seam/pole",
+  "title": "great circle through both poles, half of it on the seam meridian (y=0)",
+  "surfaces": [
+   "sphere",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c8_sphere_polar_cap",
+  "class": "8 periodic/seam/pole",
+  "title": "small circle around the pole (plane z=0.9)",
+  "surfaces": [
+   "sphere",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c8_cyl_plane_seam_line",
+  "class": "8 periodic/seam/pole",
+  "title": "plane y=0 through the axis: two lines, one on the cylinder seam",
+  "surfaces": [
+   "cylinder",
+   "plane"
+  ],
+  "branches": 2,
+  "closed": [
+   false,
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c8_torus_equator_seam",
+  "class": "8 periodic/seam/pole",
+  "title": "torus x plane z=0: outer circle lies on the minor seam",
+  "surfaces": [
+   "torus",
+   "plane"
+  ],
+  "branches": 2,
+  "closed": [
+   true,
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c8_torus_axis_plane_seam",
+  "class": "8 periodic/seam/pole",
+  "title": "torus x plane y=0: two meridian circles, one on the major seam",
+  "surfaces": [
+   "torus",
+   "plane"
+  ],
+  "branches": 2,
+  "closed": [
+   true,
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c8_cone_plane_seam",
+  "class": "8 periodic/seam/pole",
+  "title": "cone x plane y=0 (apex excluded): two rulings, one on the seam",
+  "surfaces": [
+   "cone",
+   "plane"
+  ],
+  "branches": 2,
+  "closed": [
+   false,
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c8_sphere_cyl_through_poles",
+  "class": "8 periodic/seam/pole",
+  "title": "sphere x cylinder touching the polar axis: two loops through the poles",
+  "surfaces": [
+   "sphere",
+   "cylinder"
+  ],
+  "branches": 2,
+  "closed": [
+   true,
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c8n_cylN_seam_line",
+  "class": "8 periodic/seam/pole",
+  "title": "NURBS full cylinder x plane y=0: one line on the closed-u seam",
+  "surfaces": [
+   "NURBS cylinder deg(2,1) 9x2cp rational",
+   "plane"
+  ],
+  "branches": 2,
+  "closed": [
+   false,
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c8n_sphereN_poles",
+  "class": "8 periodic/seam/pole",
+  "title": "NURBS sphere (degenerate pole rows) x plane x=0: circle through both poles",
+  "surfaces": [
+   "NURBS sphere deg(2,2) 9x5cp rational",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c8n_sphereN_polar_cap",
+  "class": "8 periodic/seam/pole",
+  "title": "NURBS sphere x plane z=0.95: small circle around the degenerate pole",
+  "surfaces": [
+   "NURBS sphere deg(2,2) 9x5cp rational",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c8n_torusN_equator_seam",
+  "class": "8 periodic/seam/pole",
+  "title": "NURBS torus x plane z=0: outer circle on the closed-v seam",
+  "surfaces": [
+   "NURBS torus deg(2,2) 9x9cp rational",
+   "plane"
+  ],
+  "branches": 2,
+  "closed": [
+   true,
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c9n_deg6_circle",
+  "class": "9 high degree/rational",
+  "title": "degree-6 NURBS, 9x9 spans, z=(x^2+y^2)^3 x plane z=0.3: circle",
+  "surfaces": [
+   "NURBS z=(x^2+y^2)^3 deg(6,6) 15x15cp",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c9n_rational_deg5_cyl_arc",
+  "class": "9 high degree/rational",
+  "title": "rational degree (5,3) cylinder patch, 7x7 spans x tilted plane: open arc",
+  "surfaces": [
+   "NURBS cylinder 0-90 deg(5,3) 12x10cp rational",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c9n_rational_deg5_sphere_arc",
+  "class": "9 high degree/rational",
+  "title": "rational degree-5 sphere patch, 6x6 spans x plane z=1: open arc",
+  "surfaces": [
+   "NURBS sphere patch deg(5,5) 11x11cp rational",
+   "plane"
+  ],
+  "branches": 1,
+  "closed": [
+   false
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c9n_elevated_paraboloids",
+  "class": "9 high degree/rational",
+  "title": "degree-5 (11x11 spans) vs degree-4 (8x8 spans) paraboloids: circle",
+  "surfaces": [
+   "NURBS z=x^2+y^2 deg5 deg(5,5) 16x16cp",
+   "NURBS z=2-x^2-y^2 deg4 deg(4,4) 12x12cp"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c9n_many_spans_plane_sphere",
+  "class": "9 high degree/rational",
+  "title": "cubic NURBS plane with 31x31 spans (non-uniform) x sphere R=2",
+  "surfaces": [
+   "NURBS plane, 31x31 spans deg(3,3) 34x34cp",
+   "sphere"
+  ],
+  "branches": 1,
+  "closed": [
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ },
+ {
+  "id": "c9n_refined_torus_sphere",
+  "class": "9 high degree/rational",
+  "title": "rational torus refined to 16x16 spans x sphere R=3: two circles",
+  "surfaces": [
+   "NURBS torus deg(2,2) 21x21cp rational",
+   "sphere"
+  ],
+  "branches": 2,
+  "closed": [
+   true,
+   true
+  ],
+  "isolated_points": 0,
+  "singular_points": 0,
+  "coincident_regions": 0
+ }
+]
